@@ -49,7 +49,7 @@ async function getData() {
                     postBody.innerText = body;
                     postSection.appendChild(newPost);
                 })
-                .catch(err => console.error(err))
+                // .catch(err => console.error(err))
         }
     })
 }
